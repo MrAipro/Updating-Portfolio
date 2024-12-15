@@ -3,6 +3,8 @@
 
 body{
     background-color: rgb(255, 238, 238);
+    width: 1920;
+    height: auto;
     padding: 0px;
     margin: 0px;
     
@@ -16,12 +18,12 @@ h1,h2,h3,h4,h4,h5,h6 {
 display: flex;
 align-items: center;
 justify-content: space-between;
+padding: ;
 }
 
 .container{
     width: 1280px;
-    margin: 20px auto;
-    margin: auto;
+    margin: 20px auto;   
 }
 .navbar_left_side{
     
@@ -78,6 +80,7 @@ justify-content: space-between;
     padding: 12px 24px;
     border-radius: 10px;
     background-color: rgb(165, 61, 255);
+    cursor: pointer;
 }
 .navbar_ling_button span{
     font-family: "Poppins", sans-serif;
@@ -89,40 +92,290 @@ justify-content: space-between;
     color: rgb(255, 255, 255);
     Font: Work Sans;    
 }
-/* Navbar Section End */
+/* Navbar ends */
+
+#hero_about{}
+/* hero */
 
 
- /*Section one starts */
-section{
+#hero_about #hero{
+ padding-top: 100px;
+ padding-bottom: 100px;
+ display: flex; 
+ justify-content: space-between;
+ align-items: center;
+}
+#hero_about #hero .hero_left{
+    width:45%;
+}
+#hero_about #hero .hero_left .hero_description{
     
-    display: flex;
-    align-items: center;
-    justify-content: center;   
+    
 }
-.section_left_side{
-    display: flex;
-   width: 45%;
+#hero_about #hero .hero_left .hero_description h1{
+color: rgb(19, 34, 56);
+font-family: Work Sans;
+font-size: 72px;
+font-weight: 400;
+line-height: 84px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 24px;
 }
-.section_left_side button{
-    background-color: rgb(165, 61, 255);
-    margin-bottom: 10px;
-    color: #fff;
+#hero_about #hero .hero_left .hero_description p{
+    /* Body/Large/400 */
+/* Body/Large/400 */
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
 }
-.section_right_side{
-    display: flex;
-    width: 45%;
+#hero_about #hero .hero_left .hero_description button{
+    /* Button */
+position: static;
+width: 125px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 12;
+padding: 12px 24px 12px 24px;
+border: none;
+cursor: pointer;
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 24px 0px;
+border-radius: 4px;
+background: rgb(165, 61, 255);
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -1.1%;
+text-align: left;
+}
+#hero_about #hero .hero_left .hero_stats{
+    position: static;
+width: 648px;
+height: 106px;
+left: 300px;
+top: 752px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 12;
+padding: 0px;
+box-sizing: border-box;
+/* Gray/White */
+border: 1px solid rgb(255, 255, 255);
+border-radius: 6px;
+background: rgba(237, 216, 255, 0.5);
+}
+#hero_about #hero .hero_left .hero_stats .stats_iteam{
+width: 200px;
+height: 72px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8;
+padding: 0px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 12px;
+} 
+#hero_about #hero .hero_left .hero_stats .stats_iteam h3{
+    color: rgb(66, 78, 96);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+}
+#hero_about #hero .hero_left .hero_stats .stats_iteam span{
+    /* Body/Regular/400 */
+color: rgb(105, 116, 132);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#hero_about #hero .hero_right{
+    width: 45% ;
+}
+#hero_about #hero .hero_right img{
+position: static;
+width: 536px;
+height: 736px;
+left: 1084px;
+top: 222px;
+align-items: flex-end;
+    
+border-radius: 25px;
+
+
+}
+ /* hero */
+
+ /* about */
+#hero_about #about{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 136px;
+padding: 112px;
+border-radius: 16px;
+
+box-shadow: 0px 36px 105px 0px rgba(43, 56, 76, 0.1);
+/* Gray/White */
+background: rgb(255, 255, 255);
+}
+#hero_about #about .about_left{}
+
+#hero_about #about .about_left img{
+    width: 324px;
+    height: 368px;
+    /* Gray/50 */
+    border: 1px solid rgb(240, 241, 243);
+    border-radius: 10px;
+    
    
 
-    }
-    img{
-        
-        height: 600px;
-        width: 500px;
-        margin-left: 200px;
-    }
-.experience-center{
 
-    display: flex;
-    gap: 50px;
 }
-/*Section one ends */
+#hero_about #about .about_left .social_media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: -50px;
+    box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
+/* Gray/White */
+    background: rgb(255, 255, 255);
+
+}
+#hero_about #about .about_left .social_media .social_icon{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 15px;
+border-radius: 4px;
+
+/* Gray/White */
+background: rgb(255, 255, 255);  
+}
+#hero_about #about .about_left .social_media .social_icon active{
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+
+box-shadow: 0px 12px 64px 0px rgba(28, 25, 25, 0.12);
+/* Primary/500 */
+background: rgb(165, 61, 255);
+}
+#hero_about #about .about_right{}
+#hero_about #about .about_right h2{
+    color: rgb(19, 34, 56);
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: left;
+}
+#hero_about #about .about_right p{ 
+    /* Body/Large/400 */
+color: rgb(85, 96, 112);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 32px;
+}
+#hero_about #about .about_right .action{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16px;
+padding: 0px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 32px 0p
+}
+#hero_about #about .about_right .action .project_btn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 12px;
+padding: 12px 24px 12px 24px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+border-radius: 4px;
+color: #fff;
+border: none;
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -1.1%;
+text-align: left;
+/* Primary/500 */
+background: rgb(165, 61, 255);
+}
+#hero_about #about .about_right .action .download_btn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 12px;
+padding: 12px 24px 12px 24px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+box-sizing: border-box;
+/* Primary/500 */
+border: 1px solid rgb(165, 61, 255);
+border-radius: 4px;
+
+/* Gray/White */
+background: rgb(255, 255, 255);
+}
+#hero_about #about .about_right .action .download_btn svg{}
+#hero_about #about .about_right .action .download_btn span{}
+/* about */
